@@ -1,6 +1,6 @@
 # Telegram RSS Feed Bot
 A Node.js script allows you to create a Telegram bot that posts new items from an RSS feed to a specified Telegram channel. 
-![Interface](Telegram RSS feed.png)
+
 # RSS Feed to Telegram Bot
 
 This Node.js script allows you to create a Telegram bot that posts new items from an RSS feed to a specified Telegram channel. The bot will check for new items at a specified interval and send them to the channel.
