@@ -52,7 +52,7 @@ The bot will initialize and start checking for new RSS items at the specified in
 ## Notes
 
 - The script uses the `dotenv` package to load environment variables from the `.env` file. Make sure to create the `.env` file and set the required variables before running the script.
-- The last posted date is stored in a file named `lastPostDate.json` in the project directory. If the file doesn't exist or contains invalid data, the script will use the Unix epoch (January 1, 1970) as the initial last posted date.
+- The last posted date is stored in a file named `lastPostDate.json` in the project directory. If the file doesn't exist or contains invalid data, the script will use the Unix epoch (January 1, 1970) as the initial last posted date NOTE: To prevent spamming previously posted RSS items, manually set the initial value in lastPostDate.json to the publication date (ISO format) of the latest existing item in the RSS feed before running the bot.
 - The script handles CDATA tags in the RSS feed items and removes HTML tags from the title and description.
 - Error handling has been added to log any errors that occur during the RSS parsing or posting process.
 - The `/latest` command is implemented to send the most recent RSS item to the Telegram channel.
