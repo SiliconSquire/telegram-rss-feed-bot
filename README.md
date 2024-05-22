@@ -33,7 +33,7 @@ npm install telegraf rss-parser
 BOT_TOKEN=your_telegram_bot_token
 CHANNEL_ID=your_telegram_channel_id
 RSS_FEED_URL=https://example.com/rss_feed
-INTERVAL_DURATION=10000 # Interval duration in milliseconds (e.g., 10000 = 10 seconds)
+INTERVAL_DURATION=60000 # Interval duration in milliseconds (e.g., 60000 = 60 seconds)
 ```
 
 Make sure to replace `your_telegram_bot_token`, `your_telegram_channel_id`, and `https://example.com/rss_feed` with your actual Telegram bot token, channel ID, and RSS feed URL, respectively. The `INTERVAL_DURATION` variable determines how often the bot should check for new RSS items (in milliseconds).
